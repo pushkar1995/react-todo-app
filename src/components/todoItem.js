@@ -1,5 +1,4 @@
-const TodoItem = ({ itemProp, handleChange, delTodo }) => {
-    return (
+const TodoItem = ({ itemProp, handleChange, delTodo }) => (
   <li>
     <input
       type="checkbox"
@@ -11,5 +10,4 @@ const TodoItem = ({ itemProp, handleChange, delTodo }) => {
     {itemProp.title}
   </li>
 );
-};
 export default TodoItem;

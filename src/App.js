@@ -1,7 +1,7 @@
-import "./App.css";
-import Header from "./components/header";
-import TodosLogic from "./components/todosLogic"
-import React from "react";
+import './App.css';
+import React from 'react';
+import Header from './components/header';
+import TodosLogic from './components/todosLogic';
 
 function App() {
   return (
