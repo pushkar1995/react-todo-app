@@ -1,16 +1,16 @@
 import PropTypes from 'prop-types';
 
 const TodoItem = ({ itemProp, handleChange, delTodo }) => (
-  <li className='item'>
-    <div className='content'>
-        <input
-            type="checkbox"
-            checked={itemProp.completed}
-            onChange={() => handleChange(itemProp.id)}
-        />
-        <button onClick={() => delTodo(itemProp.id)} type="submit">Delete</button>
+  <li className="item">
+    <div className="content">
+      <input
+        type="checkbox"
+        checked={itemProp.completed}
+        onChange={() => handleChange(itemProp.id)}
+      />
+      <button onClick={() => delTodo(itemProp.id)} type="submit">Delete</button>
 
-        {itemProp.title}
+      {itemProp.title}
     </div>
   </li>
 );
